@@ -1,0 +1,73 @@
+
+.kol-1, .kol-2, .kol-3, .kol-4, .kol-5, .kol-6, .kol-7, .kol-8, .kol-9, .kol-10, .kol-11, .kol-12
+{
+    float: left;
+    margin: 0 0 0 0;
+}
+
+
+.kol-1.poslednji, .kol-2.poslednji, .kol-3.poslednji, .kol-4.poslednji, .kol-5.poslednji, .kol-6.poslednji, .kol-7.poslednji, .kol-8.poslednji, .kol-9.poslednji, .kol-10.poslednji, .kol-11.poslednji, .kol-12
+{
+    margin: 0;
+}
+
+
+
+.kol-1 img, .kol-2 img, .kol-3 img, .kol-4 img, .kol-5 img, .kol-6 img, .kol-7 img, .kol-8 img, .kol-9 img, .kol-10 img, .kol-11 img, .kol-12 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.red {
+    clear: both;
+    padding: 0 0;
+    width: 100%;
+}
+
+
+/* For mobile phones: */
+[class*="kol-"] {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 600px)
+{
+    /* For tablets: */
+    .kol-m-1 {width: 8.33%;}
+    .kol-m-2 {width: 16.66%;}
+    .kol-m-3 {width: 25%;}
+    .kol-m-4 {width: 33.33%;}
+    .kol-m-5 {width: 41.66%;}
+    .kol-m-6 {width: 50%;}
+    .kol-m-7 {width: 58.33%;}
+    .kol-m-8 {width: 66.66%;}
+    .kol-m-9 {width: 75%;}
+    .kol-m-10 {width: 83.33%;}
+    .kol-m-11 {width: 91.66%;}
+    .kol-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px)
+{
+    /* For desktop: */
+    .kol-1 {width: 8.33%;}
+    .kol-2 {width: 16.66%;}
+    .kol-3 {width: 25%;}
+    .kol-4 {width: 33.33%;}
+    .kol-5 {width: 41.66%;}
+    .kol-6 {width: 50%;}
+    .kol-7 {width: 58.33%;}
+    .kol-8 {width: 66.66%;}
+    .kol-9 {width: 75%;}
+    .kol-10 {width: 83.33%;}
+    .kol-11 {width: 91.66%;}
+    .kol-12 {width: 100%;}
+}
