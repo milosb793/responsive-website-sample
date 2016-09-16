@@ -37,6 +37,7 @@ ul.meni1 li:first-child{
     padding-left:30px;
 }
 ul.meni1 li:last-child{
+    padding-right:0px !important;
     margin-right: 10px;
 
 }
@@ -45,7 +46,7 @@ ul.meni1 li {
     float: left;
     display: block;
     /*border-right: 1px dotted black;*/
-    padding-right:15px;
+    padding-right:45px;
 
 }
 
@@ -80,12 +81,12 @@ ul.meni1 li a {
 }
 
 #slajderDiv .natpis{
-    left:34%;
+    left:37%;
     width: 500px;
     height: 200px;
     top: 70%;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.43);
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0) );
     position: absolute;
     color: rgba(255, 255, 255, 0.8);
     font-size: 13pt;
@@ -245,7 +246,6 @@ ul.meni2 li a {
     text-shadow: 0px 0px 6px rgba(11, 11, 11,0.65);
     transition: ease 0.3s;
 
-
 }
 
 ul.meni2 li a:hover, ul.meni2 li a:visited{
@@ -302,6 +302,8 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
     display: inline;
     width: 260px;
     transition-duration: 0.3s;
+    z-index: -1;
+    overflow: hidden;
 
     /*background: rgba(255,255,255,1);*/
     /*background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,0.75) 47%, rgba(237,237,237,0.46) 100%);*/
@@ -437,6 +439,7 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
     word-wrap: break-word;
     /*box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #f2f2f2, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 0 1em 0 -0.5em #e5e5e5, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);*/
     box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.29), 0 0.5em 0 -0.25em #f2f2f2, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.41), 0 1em 0 -0.5em #e5e5e5, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.47);
+    z-index: -1;
 }
 .card.card-primary, .card.card-dark {
     color: white;
@@ -473,7 +476,7 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
     position: absolute;
     margin:0;
     padding: 0;
-    height: 70px;
+    height: 80px;
     background-color: rgba(19, 114, 56,1.0);
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.54);
     text-align: center;
@@ -481,7 +484,7 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
     font-style: italic;
     font-size: 19pt;
     letter-spacing: 1px;
-    line-height: 70px;
+    line-height: 80px;
     z-index: 0;
 }
 
@@ -507,14 +510,15 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
 
 
 #social .social_ico:hover{
-    /*background-color: rgb(33, 171, 76);*/
-    /*font-size: 30pt;*/
-    /*border-radius: 30px;*/
-    animation-name: proba;
-    animation-duration: 1s;
-    animation-timing-function: ease ;
-    animation-direction: revert;
-    animation-delay: 0.1s;
+
+    background-color: rgb(33, 171, 76);
+    font-size: 30pt;
+    border-radius: 150px 150px;
+    /*animation-name: proba;*/
+    /*animation-duration: 1s;*/
+    /*animation-timing-function: ease ;*/
+    /*animation-direction: revert;*/
+    /*animation-delay: 0.1s;*/
 
 }
 
@@ -580,36 +584,33 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
 
 /* RESPONSIVE  */
 
-/*mobile*/
-@media only screen and (max-width: 480px)
+/* mobile */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
 {
-    #nav1, .nav2{
-        /*height: auto;*/
-        /*width: auto;*/
+    .sadrzaj {
+        max-width: 768px;
+    }
+    .meni1{
+
     }
 
-    .meni1 >li, .meni2>li {
-        display: block;
-        color: black;
-    }
-    ul.meni1 li.desno, ul.meni1 li,
-    ul.meni2 li.desno, ul.meni2 li{
-        text-align: center;
-        float: none;
-        background-color: aquamarine;
-        color: black;
-        font-style: italic;
-        display: block;
-        padding:0;
+}
+
+/* medium devices */
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1)
+{
+    .sadrzaj {
+        max-width: 1366px;
     }
 }
 
-/*tablets*/
-@media only screen and (max-width: 768px)
-{
-    ul.meni1 li.desno,ul.meni1 li,
-    ul.meni2 li.desno, ul.meni2 li{
-        float: left;
+/* large devices */
+@media only screen  and (min-width : 1700px) {
+    .sadrzaj {
+        max-width: 1750px;
     }
 }
 
