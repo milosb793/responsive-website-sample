@@ -12,14 +12,14 @@ html{
     padding:0;
     height: 25px;
     line-height:25px;
-    background-color :#78866B;
+    background-color :#62D0FF;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 3px 2px rgba(0,0,0,0.24);
     z-index: 100;
     position: fixed;
 
 }
 
-ul > li{
+.nav2 ul > li{
     margin: 0 5% 0 0;
     /*padding: 0 0 3px 3px;*/
 }
@@ -64,17 +64,64 @@ ul.meni1 li a {
 
 }
 
-#nav2{
-    margin: 27px 0 0 0 ;
+.nav2{
+    margin: 25px 0 0 0 ;
     padding:0;
     height: 60px;
     line-height:60px;
-    background-color: rgba(255,179,71,0.15);
+    background-color: rgba(52, 152, 219,0.1);
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     width: 100%;
     z-index: 999;
     position: fixed;
+}
+.nav2Scroll{
+    background-color: rgba(100, 100, 100, 0.9);
+}
 
+#slajderDiv .natpis{
+    left:34%;
+    width: 500px;
+    height: 200px;
+    top: 70%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.43);
+    position: absolute;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13pt;
+    padding: 25px;
+    font-weight: lighter;
+    /*letter-spacing: 1px;*/
+    text-align: justify;
+    overflow:hidden;
+    vertical-align: center;
+}
+
+#slajderDiv .natpis:hover{
+    overflow-y: scroll;
+    /*padding-right: 16px;*/
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(64, 169, 206, 0.8);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(64, 169, 206, 0.8);
 }
 
 #logo{
@@ -82,9 +129,9 @@ ul.meni1 li a {
     /*margin: 0;*/
 
 }
-#logo img {
+.logo img {
     /*top:4.4%;*/
-    top: 29px;
+    top: 26px;
     width: 90px;
     height: 90px;
     display: block;
@@ -94,20 +141,28 @@ ul.meni1 li a {
     /*box-shadow: 1px 5px 5px rgba(0,0,0,0.12), 0 1px 5px rgba(0,0,0,0.24);*/
     box-shadow: 0 7px 69px 6px rgba(0,0,0,0.43);
     /*left: 48.7%;*/
-    left: 46.8%;
+    left: 49%;
     transition: width 0.5s, height 0.5s, transform 0.5s;
     z-index: 999;
-
-
+}
+.logoSmanji {
+    top: 25px;
+    width: 60px !important;
+    height: 60px !important;
 }
 
-#logo img:hover {
+.logo img:hover {
     width: 100px;
     height:100px;
     box-shadow: 0 7px 69px 6px rgba(0,0,0,0.63);
-
-
 }
+
+.logoSmanji:hover{
+    width: 80px;
+    height:80px;
+    box-shadow: 0 7px 69px 6px rgba(0,0,0,0.63);
+}
+
 #slajderDiv{
     margin: 0;
     padding:0;
@@ -127,7 +182,6 @@ ul.meni1 li a {
 
 
 .pokazivac{
-    background: rgba(51,51,51,0.1);
     width: 5%;
     position: absolute;
     top: 0;
@@ -135,7 +189,7 @@ ul.meni1 li a {
     color: white;
     line-height: 850px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 
 }
@@ -144,6 +198,16 @@ ul.meni1 li a {
     max-height: 600px;
     max-width: 1024px;
 }
+#leviSlider.pokazivac:hover {
+    color: white;
+    font-size: 50px;
+}
+#desniSlajder.pokazivac:hover {
+    color: white;
+    font-size: 50px;
+
+}
+
 
 /* МЕНИ 2 */
 
@@ -197,7 +261,7 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
 #izdvajamoNaslov{
     /*background-color: #00FA9A;*/
     background-color: #89C443;
-    height: 180px;
+    height: 350px;
     /*border: 1px solid gray;*/
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -225,6 +289,7 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
     /*padding-left: 230px;*/
     padding-left: 15%;
     z-index: -1;
+    margin-bottom: 150px;
 
 }
 
@@ -246,11 +311,7 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
     /*background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,0.75) 47%, rgba(237,237,237,0.46) 100%);*/
     /*background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,0.75) 47%, rgba(237,237,237,0.46) 100%);*/
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );*/
-
-
-
 }
-
 
 
 .tekstArtikal{
@@ -306,7 +367,7 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
 #galerijaNaslov{
     /*background-color: #00FA9A;*/
     background-color: #FFB347;
-    height: 180px;
+    height: 350px;
     /*border: 1px solid gray;*/
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -329,7 +390,8 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
 }
 
 #galerijaSadrzaj{
-    margin-top: 20%;
+    margin-top: 15%;
+    margin-bottom: 15%;
     height: 600px;
     position: relative;
     /*padding-left: 230px;*/
@@ -356,7 +418,7 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
     font-size: 15pt;
     font-style: italic;
     color: rgba(203, 96, 40, 0.72);
-    width: inherit;
+    width: 200px;
 }
 
 .linija{
@@ -396,12 +458,132 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
     margin-bottom: 0;
 }
 
+
+#futer{
+    bottom: 0;
+    position: relative;
+    margin:auto;
+    height: 400px;
+    background-color: rgba(39, 174, 96,1.0);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px -3px 3px #BCBCBC;
+}
+#social{
+    top: 0;
+    position: absolute;
+    margin:0;
+    padding: 0;
+    height: 70px;
+    background-color: rgba(19, 114, 56,1.0);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.54);
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 19pt;
+    letter-spacing: 1px;
+    line-height: 70px;
+    z-index: 0;
+}
+
+#social .social_ico  {
+    color:white;
+    z-index: 999;
+    /*transition-duration: 0.5s;*/
+    /*-webkit-transition-duration: 0.5s;*/
+    /*transition-timing-function: linear;*/
+}
+
+@keyframes proba {
+    from {
+            background-color: rgba(19, 114, 56,1.0);
+            font-size: 19pt;
+    }
+    to {
+        background-color: rgb(33, 171, 76);
+        font-size: 30pt;
+        border-radius: 100%;
+    }
+}
+
+
+#social .social_ico:hover{
+    /*background-color: rgb(33, 171, 76);*/
+    /*font-size: 30pt;*/
+    /*border-radius: 30px;*/
+    animation-name: proba;
+    animation-duration: 1s;
+    animation-timing-function: ease ;
+    animation-direction: revert;
+    animation-delay: 0.1s;
+
+}
+
+#social .social_ico a {
+    color: white;
+    text-decoration: none;
+}
+
+#social > div{
+    float:right;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#pratiteNas{
+    margin: 0;
+    position: absolute;
+    letter-spacing: 2pt;
+    font-style: italic;
+}
+
+#futer1{
+    padding: 40px 40px 40px 40px;
+}
+
+#futer1 section{
+    margin-top: 80px;
+    padding-left: 100px;
+    float:left;
+
+}
+#futer1 section ul li {
+    padding: 8px;
+    font-size: 12pt;
+}
+
+#futer1 section ul li a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+#futer1 section ul li a:hover{
+    color: rgba(255, 255, 255, 0.49);
+    font-size: 1.08em;
+}
+
+
+#futer2{
+    bottom: 0;
+    position: absolute;
+    margin:0;
+    padding: 0;
+    height: 50px;
+    background-color: rgba(19, 114, 56,1.0);
+    box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.54);
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 11pt;
+    letter-spacing: 1px;
+    line-height: 50px;
+
+}
+
 /* RESPONSIVE  */
 
 /*mobile*/
 @media only screen and (max-width: 480px)
 {
-    #nav1, #nav2{
+    #nav1, .nav2{
         /*height: auto;*/
         /*width: auto;*/
     }

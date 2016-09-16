@@ -3,8 +3,9 @@
 <head>
     <!-- META -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 
     <title>Почетна</title>
 
@@ -40,8 +41,9 @@
         <div id="slajderDiv" class="red">
             <div id="leviSlider" class="pokazivac fa fa-chevron-left" onclick="slide(-1);"></div>
             <div id="desniSlajder" class="pokazivac fa fa-chevron-right" onclick="slide(+1);"></div>
+
             <!--Навигација 2 -->
-            <div id="nav2" class="kol-12">
+            <div id="" class="nav2 kol-12">
                 <ul class="meni2">
                     <li><a href="index.html" > ИЗДВАЈАМО </a></li>
                     <li><a href="o_nama.html"> РЕЗЕРВАЦИЈА</a></li>
@@ -49,17 +51,19 @@
                     <li class="desno"> <a href="kontakt.html"> ГАЛЕРИЈА</a> </li>
                 </ul>
             </div>
+
+            <div class="natpis">Странцу у Србији неће бити потребно много времена да се увери угостољубивост ,љубазност, отвореност и топлину њених житеља.</div>
+
         </div>
 
 
         <!-- Лого -->
-        <div id="logo" align="center">
+        <div class="logo" align="center">
             <img src="img/logo.svg"/>
         </div>
 
         <!--Слајдер слике-->
         <div id="slajder" class="red">
-
         </div>
 
     </div>
@@ -76,6 +80,7 @@
             </div>
             <div class="kol-12 kol-m-12" id="izdvajamoSadrzaj" align="center">
 
+                <!--Артикал 1-->
                 <div class="artikal kol-4 kol-m-6">
                     <div class="sadrzajArtikla">
                         <div class="sloj">
@@ -92,6 +97,7 @@
                     </div>
                 </div>
 
+                <!--Артикал 2-->
                 <div class="artikal kol-4 kol-m-6">
                     <div class="sadrzajArtikla">
                         <div class="sloj">
@@ -107,6 +113,7 @@
                     </div>
                 </div>
 
+                <!--Артикал 3-->
                 <div class="artikal kol-4 kol-m-6">
                     <div class="sadrzajArtikla">
                         <div class="sloj">
@@ -122,6 +129,7 @@
                     </div>
                 </div>
 
+                <!--Артикал 4-->
                 <div class="artikal kol-4 kol-m-6">
                     <div class="sadrzajArtikla">
                         <div class="sloj">
@@ -137,6 +145,7 @@
                     </div>
                 </div>
 
+                <!--Артикал 5-->
                 <div class="artikal kol-4 kol-m-6">
                     <div class="sadrzajArtikla">
                         <div class="sloj">
@@ -152,6 +161,7 @@
                     </div>
                 </div>
 
+                <!--Артикал 6-->
                 <div class="artikal kol-4 kol-m-6">
                     <div class="sadrzajArtikla">
                         <div class="sloj">
@@ -166,9 +176,7 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
     </div>
 </div>
@@ -213,8 +221,59 @@
     </div>
 </div>
 
+<!--футер-->
+<div class="sadrzaj">
+    <div class="red" id="futer">
+        <!--Друштвене мреже-->
+        <div class="red" id="social">
+            <div id="pratiteNas">Пратите нас: </div>
+            <div class="social_ico col3">
+                <a class="fa fa-facebook-square" href="https://www.facebook.com" target="_blank"></a>
+            </div>
+
+            <div class="social_ico col3">
+                 <a class="fa fa fa-twitter" href="https://www.twitter.com" target="_blank"></a>
+            </div>
+
+            <div class="social_ico col3">
+                <a class="fa fa-youtube-play" href="https://www.youtube.com" target="_blank"></a>
+            </div>
+
+            <div class="social_ico col3">
+                <a class="fa fa-instagram" href="https://www.instagram.com" target="_blank"></a>
+            </div>
+
+        </div>
+
+        <!--Све-->
+        <div class="red" id="futer1">
+            <section id="prva">
+                <ul>
+                    <li><a href="#">&raquo; Почетна </a></li>
+                    <li><a href="#">&raquo; Издвајамо </a></li>
+                    <li><a href="#">&raquo; О нама </a></li>
+                    <li><a href="#">&raquo; Контакт </a></li>
+                </ul>
+            </section>
+
+            <section >
+                <ul>
+                    <li><a href="#">&raquo; Резервација </a></li>
+                    <li><a href="#">&raquo; Галерија </a></li>
+                    <li><a href="#">&raquo; О нама </a></li>
+                    <li><a href="#">&raquo; Контакт </a></li>
+                </ul>
+            </section>
+        </div>
+        <!--Права-->
+        <div class="red" id="futer2"> &copy; Висока школа електротехнике и рачунарства струковних студија
+        </div>
+    </div>
+</div>
+
 </body>
 <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 
 </html>
