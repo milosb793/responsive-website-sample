@@ -6,7 +6,7 @@ html{
 }
 
 
-#nav1{
+.nav1{
     top:0;
     margin: 0;
     padding:0;
@@ -44,7 +44,6 @@ ul.meni1 li:last-child{
 
 ul.meni1 li {
     float: left;
-    display: block;
     /*border-right: 1px dotted black;*/
     padding-right:45px;
 
@@ -62,7 +61,6 @@ ul.meni1 li a {
     /*padding: 3px 5px;*/
     text-decoration: none;
     /*margin: 0 0 10px 10px;*/
-
 }
 
 .nav2{
@@ -71,17 +69,22 @@ ul.meni1 li a {
     height: 60px;
     line-height:60px;
     background-color: rgba(52, 152, 219,0.1);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.32), 0 1px 2px rgba(0,0,0,0.24);
     width: 100%;
     z-index: 999;
     position: fixed;
+    transition: 0.3s;
 }
+
+ul.meni2 li.icon {display: none;}
+
+
 .nav2Scroll{
     background-color: rgba(100, 100, 100, 0.9);
 }
 
 #slajderDiv .natpis{
-    left:37%;
+    left:35%;
     width: 500px;
     height: 200px;
     top: 70%;
@@ -212,26 +215,25 @@ ul.meni1 li a {
 
 /* МЕНИ 2 */
 
-.meni2 {
+ul .meni2 {
     display:inline;
     list-style-type: none;
     /*margin: 1% 0 0 0;*/
     padding: 0;
     overflow: hidden;
-
+    margin: 0;
 }
 
 ul.meni2 li:first-child{
     padding-left:30px;
 }
 ul.meni2 li:nth-last-child(2){
-    margin-right: 10px;
+    margin-right: 40px;
 
 }
 
 ul.meni2 li {
     float: left;
-    display: block;
     /*border-right: 1px dotted black;*/
 
 }
@@ -239,19 +241,30 @@ ul.meni2 li {
 ul.meni2 li.desno {float: right;}
 
 ul.meni2 li a {
-    color: rgba(255, 172, 56, 0.6);
+    color: rgba(255, 172, 56, 0.6) !important;
     text-align: center;
-    padding: 3px 5px;
+    /*padding: 3px 5px; */
     text-decoration: none;
     text-shadow: 0px 0px 6px rgba(11, 11, 11,0.65);
-    transition: ease 0.3s;
-
+    transition: 0.3s;
+    /*display: inline-block;*/
+    color: #f2f2f2;
+    /*padding: 14px 16px;*/
+    font-size: 17px;
 }
+
+ul.meni2 li.icon {display: none;}
+
 
 ul.meni2 li a:hover, ul.meni2 li a:visited{
     border: 1px rgba(255, 121, 52, 0.75) solid;
     border-radius: 5px;
     padding: 10px;
+}
+
+.hidden{
+    visibility:hidden;
+    display:none;
 }
 
 @font-face {
@@ -283,13 +296,13 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
 }
 
 #izdvajamoSadrzaj{
-    margin-top: 100px;
+    margin-top:100px;
     height: 600px;
     /*position: absolute;*/
     /*padding-left: 230px;*/
     padding-left: 15%;
     z-index: -1;
-    margin-bottom: 150px;
+    margin-bottom: 30%;
 
 }
 
@@ -393,12 +406,13 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
 
 #galerijaSadrzaj{
     margin-top: 15%;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     height: 600px;
     position: relative;
     /*padding-left: 230px;*/
     /*padding-left: 0%;*/
     z-index: -1;
+    padding:5%;
 
 }
 
@@ -476,7 +490,7 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
     position: absolute;
     margin:0;
     padding: 0;
-    height: 80px;
+    height: 60px;
     background-color: rgba(19, 114, 56,1.0);
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.54);
     text-align: center;
@@ -484,7 +498,7 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
     font-style: italic;
     font-size: 19pt;
     letter-spacing: 1px;
-    line-height: 80px;
+    line-height: 60px;
     z-index: 0;
 }
 
@@ -503,7 +517,7 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
     }
     to {
         background-color: rgb(33, 171, 76);
-        font-size: 30pt;
+        /*font-size: 30pt;*/
         border-radius: 100%;
     }
 }
@@ -512,8 +526,8 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
 #social .social_ico:hover{
 
     background-color: rgb(33, 171, 76);
-    font-size: 30pt;
-    border-radius: 150px 150px;
+    /*font-size: 30pt;*/
+    border-radius: 100px;
     /*animation-name: proba;*/
     /*animation-duration: 1s;*/
     /*animation-timing-function: ease ;*/
@@ -585,33 +599,112 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
 /* RESPONSIVE  */
 
 /* mobile */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
-{
-    .sadrzaj {
-        max-width: 768px;
-    }
-    .meni1{
+@media screen and (max-width:680px) {
 
+
+    div.nav1 {
+        visibility: hidden;
     }
+
+    .nav2 {
+        margin: 0 !important;
+    }
+
+    ul.meni2 li:not(:first-child) {
+        display: none;
+    }
+
+    ul.meni2 li.icon {
+        float: right;
+        display: inline-block;
+    }
+
+    ul.meni2.responsive {
+        position: relative;
+    }
+
+    ul.meni2 li:first-child {
+        display: none;
+        margin-top: 100px;
+    }
+
+    ul.meni2.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    ul.meni2.responsive li {
+        margin: 0;
+        padding: 0;
+        float: none;
+        display: inline;
+        z-index: 999;
+    }
+
+    ul.meni2.responsive li a {
+        display: block;
+        background-color: rgba(60, 60, 60, 0.5);
+        /*border: 1px solid orange;*/
+        text-align: center;
+    }
+
+    ul.meni2 .responsive li.desno {
+        float: none;
+    }
+
+    .hidden {
+        visibility: visible;
+        display: block;
+    }
+
+    .logo.responsive img {
+        height: 60px;
+        width: 60px;
+        top: 0;
+        left: 2%;
+    }
+
+    #slajderDiv {
+        background-size: cover;
+    }
+
+    #slajderDiv .natpis {
+        left: 5%;
+        width: 500px;
+        height: 100px;
+    }
+
+    #izdvajamoSadrzaj {
+        height: auto;
+        padding-left: 25% !important;
+    }
+
+    #galerijaSadrzaj{
+        height: auto;
+        margin-bottom: 10%;
+        padding-left:20%;
+        padding-top:5%;
+        padding-bottom: 15%;
+    }
+
 
 }
 
 /* medium devices */
 @media screen
-and (min-device-width: 1200px)
+and (min-device-width: 768px)
 and (max-device-width: 1600px)
 and (-webkit-min-device-pixel-ratio: 1)
 {
-    .sadrzaj {
-        max-width: 1366px;
-    }
+
+
+    
 }
 
 /* large devices */
 @media only screen  and (min-width : 1700px) {
-    .sadrzaj {
-        max-width: 1750px;
-    }
+
 }
 
 
