@@ -24,29 +24,37 @@
     box-sizing: border-box;
 }
 
-/* mobile */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+/* small screens */
+@media only screen and (max-width : 480px)
 {
     .sadrzaj {
-        max-width: 768px;
+        max-width: 480px;
+    }
+}
+
+/* mobile */
+@media only screen and (min-width: 481px) and(max-width : 680px)
+{
+    .sadrzaj {
+        max-width: 680px;
     }
 }
 
 /* medium devices */
 @media screen
-and (min-device-width: 1200px)
-and (max-device-width: 1600px)
+and (min-device-width: 685px)
+and (max-device-width: 1280px)
 and (-webkit-min-device-pixel-ratio: 1)
 {
     .sadrzaj {
-        max-width: 1366px;
+        max-width: 1024px;
     }
 }
 
 /* large devices */
-@media only screen  and (min-width : 1700px) {
+@media only screen  and (min-width : 1285px) and (max-width: 1700px) {
     .sadrzaj {
-        max-width: 1750px;
+        max-width: 1400px;
     }
 }
 
@@ -67,7 +75,7 @@ and (-webkit-min-device-pixel-ratio: 1)
 }
 
 
-@media only screen and (min-width: 600px)
+@media only screen and (min-width: 680px)
 {
     /* For tablets: */
     .kol-m-1 {width: 8.33%;}
@@ -83,7 +91,7 @@ and (-webkit-min-device-pixel-ratio: 1)
     .kol-m-11 {width: 91.66%;}
     .kol-m-12 {width: 100%;}
 }
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 1600px)
 {
     /* For desktop: */
     .kol-1 {width: 8.33%;}
