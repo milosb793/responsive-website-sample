@@ -26,7 +26,7 @@ window.setInterval(function slideAuto()
     image.backgroundImage="url(img/sld/"+brojac+".jpg)";
     natpis.html(nizRecenicaPoSlici[brojac]);
 
-},100000);
+},10000);
 
 function refreshPage()
 {

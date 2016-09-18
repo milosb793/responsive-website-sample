@@ -1,0 +1,135 @@
+.kontaktNaslov{
+    /*background-color: #89C443;*/
+    background: url('../img/planine/2.jpg');
+    background-position: center;
+    background-size: 1400px 900px;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 10px;
+    font-family: "NK174";
+    /*font-family: "NK333";*/
+    box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color:white;
+    font-weight: bold;
+    /*padding-top:100px;*/
+    margin-bottom:100px;
+}
+
+#kontakt{
+    margin-left:50px;
+    font-size: 25pt;
+    font-family: "NK174";
+    letter-spacing: 12px;
+
+}
+
+.kontaktForma form{
+    position: absolute;
+}
+
+.kontaktForma{
+    position: relative;
+    height: 700px;
+    background-color: rgba(99, 168, 202, 0.15);
+    width: 60%;
+    left:20%;
+    box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-top:100px;
+
+}
+
+.kontaktForma label {
+    margin-top: 30px;
+    margin-left:50px;
+    float:left;
+    font-style: italic;
+}
+.kontaktForma input {
+    border: none;
+    padding-top:20px;
+    border-bottom: 2px solid rgba(99, 168, 202, 0.75);
+    background-color: rgba(99, 168, 202, 0);
+    width: 90%;
+}
+
+.kontaktForma form > div textarea{
+    margin-top: 50px;
+    float:left;
+    display: block;
+    width: 720px !important;
+    position: relative;
+    /*margin-left:100px;*/
+    resize: none;
+    border:1px dotted dodgerblue;
+    border-radius: 5px;
+
+}
+
+.kontaktForma form > div {
+    /*width: 250px;*/
+    margin-left: 0;
+}
+
+.kontaktForma .dugmici{
+    position: relative;
+    margin-top:20px;
+    margin-left: 50px;
+
+}
+.kontaktForma .dugmici > input{
+    float:left;
+    /*padding-right: 100px;*/
+    font-size: 12pt;
+    text-align: center;
+    margin-top:20px;
+}
+
+.kontaktForma input[type=text]:focus,.kontaktForma input[type=email]:focus{
+    margin-top: 30px;
+    /*box-shadow: 0 3px 3px rgba(0,0,0,0.22), 0 1px 2px rgba(0,0,0,0.34);*/
+    border-bottom: 2px solid rgba(255,182,193, 0.7);
+
+}
+
+.kontaktForma .dugmici > input[type=submit]:hover, .kontaktForma .dugmici >  input[type=submit]:active{
+    /*background-color: rgba(255,182,193, 0.7);*/
+    box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 2px solid rgba(255,182,193, 0.7);
+    border-radius: 10px;
+    padding-bottom:10px;
+}
+
+.kontaktForma .dugmici > input:last-child{
+    margin-bottom:150px;
+}
+
+.gdeSeNalazimoTekst{
+    margin-top: 200px;
+    /*background-color: #89C443;*/
+    background: url('../img/worldmap_abstract.jpg');
+    background-size: 100% auto;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 10px;
+    font-family: "NK174";
+    /*font-family: "NK333";*/
+    box-shadow: 0 5px 3px rgba(0,0,0,0.32), 0 1px 2px rgba(0,0,0,0.44);
+    color:white;
+    font-weight: bold;
+    padding-top:30px;
+    margin-bottom: 5px;
+    z-index:999;
+}
+
+.gdeSeNalazimo{
+    width: 100%;
+    height: 600px;
+    /*margin-bottom: 150px;*/
+    z-index: -1;
+}

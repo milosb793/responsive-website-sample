@@ -1,0 +1,77 @@
+.galerijaNaslovPlanine{
+    background-color: #51702c;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 10px;
+    font-family: "NK174";
+    /*font-family: "NK333";*/
+    box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: rgba(255, 255, 255, 0.78);
+    font-weight: lighter;
+    /*padding-top:100px;*/
+    margin-bottom:100px;
+}
+
+.galerijaNaslovSela{
+    margin-top: 150px;
+    background-color: #ecb386;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 10px;
+    font-family: "NK174";
+    /*font-family: "NK333";*/
+    box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: rgba(255, 255, 255, 0.78);
+    font-weight: lighter;
+    /*padding-top:100px;*/
+    margin-bottom:100px;
+}
+
+.galerijaNaslovParkovi{
+    margin-top: 150px;
+
+    background-color: #a89ba2;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 10px;
+    font-family: "NK174";
+    /*font-family: "NK333";*/
+    box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: rgba(255, 255, 255, 0.78);
+    font-weight: lighter;
+    /*padding-top:100px;*/
+    margin-bottom:150px;
+}
+
+.slika{
+    margin-top: 100px;
+    margin-left:30px;
+    margin-right:10px;
+    padding: 1rem;
+    /*min-width: 10rem;*/
+    max-width: 25rem;
+    /*background-color: white;*/
+    word-wrap: break-word;
+    box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.37);
+    z-index: -1;
+}
+
+.slikaGalerija img {
+    height: 250px;
+    /*width: 300px;*/
+    background-size: auto;
+}
+
+div.slikaGalerija.slika:last-child{
+    margin-bottom: 100px;
+}
+

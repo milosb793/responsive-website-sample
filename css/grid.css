@@ -91,7 +91,7 @@ and (-webkit-min-device-pixel-ratio: 1)
     .kol-m-11 {width: 91.66%;}
     .kol-m-12 {width: 100%;}
 }
-@media only screen and (min-width: 1600px)
+@media only screen and (min-width: 1400px)
 {
     /* For desktop: */
     .kol-1 {width: 8.33%;}

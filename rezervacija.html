@@ -1,23 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="rs">
 <head>
+    <!-- META -->
     <meta charset="UTF-8">
-    <title>Резервишите на време</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 
-    <style >
+    <title>Резервиши</title>
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/grid.css"/>
+    <!--<link rel="stylesheet" href="css/font-awesome.min.css"/>-->
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/rezervisi.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
 
-
-    </style>
 </head>
+
 <body>
 
-<figure class="stack stack-cornergrid">
-    <img src="img/1.png" alt="img01"/>
-    <img src="img/3.png" alt="img03"/>
-    <img src="img/4.png" alt="img04"/>
-    <img src="img/2.png" alt="img02"/>
-</figure>
+<header>
+    <!-- Први ред навигације  -->
+    <div class="sadrzaj">
+        <div class="red nav1" >
+            <div class="kol-12 kol-m-3">
+                <ul class="meni1" id="meni1">
+                    <li><a href="index.html" > Почетна </a></li>
+                    <li><a href="o_nama.html#oNamaNaslov"> О нама</a></li>
+                    <li class='desno jezik'> <a href="#">Ћир</a> | <a href="#">Lat</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- СЛАЈДЕР -->
+    <div class="sadrzaj">
+        <div id="slajderDiv" class="red">
+            <div id="leviSlider" class="pokazivac fa fa-chevron-left" onclick="slide(-1);"></div>
+            <div id="desniSlajder" class="pokazivac fa fa-chevron-right" onclick="slide(+1);"></div>
+
+            <!--Навигација 2 -->
+            <div id="" class="nav2 kol-12">
+                <ul class="meni2" id="meni2id">
+                    <li><a href="index.html#izdvajamoNaslov" id="izdvajamoLink"> ИЗДВАЈАМО </a></li>
+                    <li><a href="#rezervisiNaslov"> РЕЗЕРВАЦИЈА</a></li>
+                    <li class="hidden"><a href="o_nama.html#oNamaNaslov"> О НАМА</a></li>
+                    <li class="desno"> <a href="kontakt.html#kontaktNaslov"> КОНТАКТ</a> </li>
+                    <li class="desno"> <a href="galerija.html#galerija"> ГАЛЕРИЈА</a> </li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="resp()">&#9776;</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="natpis responsive">Странцу у Србији неће бити потребно много времена да се увери угостољубивост ,љубазност, отвореност и топлину њених житеља.</div>
+
+        </div>
+
+
+        <!-- Лого -->
+        <div class="logo responsive" align="center">
+            <img src="img/logo.svg"/>
+        </div>
+
+        <!--Слајдер слике-->
+        <div id="slajder" class="red">
+        </div>
+
+    </div>
+
+</header>
+
+<!-- Контакт -->
+<div class="sadrzaj">
+    <div class="red" align="center">
+        <!--Наслов-->
+        <div id='rezervisiNaslov' class="rezervisiNaslov kol-12 kol-m-12"> <br/>
+            <span class="inicijal">~</span>&nbsp;&nbsp; Резервишите на време <span class="inicijal">~</span>
+        </div>
+
+        <!--Форма-->
+        <div class="rezervisiForma red" align="center">
+            <div class="forma1 kol-6 kol-m-12">
+                <div class="formaNaslov">
+                    Ваши лични подаци <br/> <hr class="linija"/>
+                </div>
+
+                <form action="#" method="post">
+                    <div class="redIme kol-4 kol-m-12"> <label for="ime1">Ваше име и презиме: </label> <input id='ime1' name="ime1" type="text" required="required"/> </div>
+                    <div class="redEmail kol-4 kol-m-12"> <label for="email1"> Ваша е-адреса: </label> <input id='email1' name="email1" type="text" required="required"/> </div>
+                    <div class="redTel kol-4 kol-m-12"> <label for="br_tel"> Ваша телефон: </label> <input id='br_tel' name="br_tel" type="tel" required="required"/> </div>
+                    <div class="redAdr kol-4 kol-m-12"> <label for="adresa"> Ваша адреса становања: </label> <input id='adresa' name="adresa" type="text" required="required"/> </div>
+                    <div class="redPosta kol-4 kol-m-12"> <label for="posta"> Ваш поштански број: </label> <input id='posta' name="posta" type="number" required="required"/> </div>
+                    <div class="redLk kol-4 kol-m-12"> <label for="posta"> Број личне карте: </label> <input id='lk' name="lk" type="number" required="required"/> </div>
+                </form>
+            </div>
+
+            <div class="forma2 kol-6 kol-m-12">
+                <div class="formaNaslov">
+                    Подаци о резервацији <br/> <hr class="linija"/>
+                </div>
+
+                <form action="#" method="post">
+                    <div class="redIme kol-4 kol-m-12"> <label for="destinacija">Изаберите дестинацију: </label>
+                        <select id='destinacija' name="destinacija" required="required">
+                            <option value="1">Златар</option>
+                            <option value="2">Стара планина</option>
+                            <option value="3">Златибор</option>
+                            <option value="4">Копаоник</option>
+                            <option value="5">Фрушка гора</option>
+                        </select></div>
+                    <div class="redDatumPolaska kol-4 kol-m-12"> <label for="datumPolaska"> Датум поласка: </label> <input id='datumPolaska' name="datumPolaska" type="datetime-local" required="required"/> </div>
+                    <div class="redDatumPovratka kol-4 kol-m-12"> <label for="datumPovratka"> Датум повратка: </label> <input id='datumPovratka' name="datumPovratka" type="datetime-local" required="required"/> </div>
+
+                    <div class="redPutnici kol-6 kol-m-6"> <label for="deca"> Деца:  </label> <input id='deca' name="deca" type="checkbox" required="required"/> </div>
+                    <div class="redPutnici kol-6 kol-m-6"> <label for="odrasli"> Одрасли:  </label> <input id='odrasli' name="odrasli" type="checkbox" required="required"/> </div>
+
+                    <div class="redPrevoz kol-4 kol-m-12"> <label for="prevoz">Изаберите тип превоза: </label>
+                        <select id='prevoz' name="prevoz" required="required">
+                            <option value="1">Авион</option>
+                            <option value="2">Воз</option>
+                            <option value="3">Аутомобил</option>
+                            <option value="4">Брод</option>
+                        </select></div>
+
+                    <div class="redSmestaj kol-4 kol-m-12"> <label for="smestaj">Изаберите тип превоза: </label>
+                        <select id='smestaj' name="smestaj" required="required">
+                            <option value="1">Приватни смештај</option>
+                            <option value="2">Хотел</option>
+                            <option value="3">Мотел</option>
+                            <option value="4">Апартман</option>
+                        </select></div>
+                </form>
+            </div>
+        </div>
+            <div class="pozadinaDugmici kol-12 kol-m-12">
+                <div class="dugmici ">
+                    <input type="submit" value="Пошаљи"/>
+                    <input type="reset" value="Поништи"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--футер-->
+<div class="sadrzaj">
+    <div class="red" id="futer">
+        <!--Друштвене мреже-->
+        <div class="red" id="social">
+            <div id="pratiteNas" class=" ">Пратите нас: </div>
+            <div class="social_ico ">
+                <a class="fa fa-facebook-square" href="https://www.facebook.com" target="_blank"></a>
+            </div>
+
+            <div class="social_ico ">
+                <a class="fa fa fa-twitter" href="https://www.twitter.com" target="_blank"></a>
+            </div>
+
+            <div class="social_ico ">
+                <a class="fa fa-youtube-play" href="https://www.youtube.com" target="_blank"></a>
+            </div>
+
+            <div class="social_ico ">
+                <a class="fa fa-instagram" href="https://www.instagram.com" target="_blank"></a>
+            </div>
+
+        </div>
+
+        <!--Све-->
+        <div class="red" id="futer1">
+            <section id="prva" class="kol-6 kol-m-6">
+                <ul>
+                    <li><a href="index.html">&raquo; Почетна </a></li>
+                    <li><a href="index.html#izdvajamoNaslov">&raquo; Издвајамо </a></li>
+                    <li><a href="o_nama.html#oNamaNaslov">&raquo; О нама </a></li>
+                </ul>
+            </section>
+
+            <section class="kol-6 kol-m-6">
+                <ul>
+                    <li><a href="rezervacija.html#rezervisiNaslov">&raquo; Резервација </a></li>
+                    <li><a href="galerija.html#galerija">&raquo; Галерија </a></li>
+                    <li><a href="kontakt.html#kontaktNaslov">&raquo; Контакт </a></li>
+                </ul>
+            </section>
+        </div>
+        <!--Права-->
+        <div class="red" id="futer2"> &copy; Висока школа електротехнике и рачунарства струковних студија
+        </div>
+    </div>
+</div>
 
 </body>
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
 </html>

@@ -25,3 +25,18 @@ function resp()
         x.className = "meni2";
     }
 }
+
+$("#izdvajamoLink").click(function() {
+        $('html, body').animate({
+        scrollTop: $("#izdvajamoNaslov").offset().top
+    }, 2000);
+
+});
+
+$("body").on('click',"img",function () {
+    var url = $(this).attr('src');
+    if(url.indexOf("logo") > -1 )
+        window.location.href = "index.html";
+    else
+    window.open(url,"_target");
+});

@@ -1,0 +1,154 @@
+.rezervisiNaslov{
+    background: url('https://www.transparenttextures.com/patterns/flowers.png');
+    background-repeat: repeat;
+    background-color: #3d969e;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 10px;
+    font-family: "NK174";
+    /*font-family: "NK333";*/
+    box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color:white;
+    font-weight: lighter;
+    /*padding-top:100px;*/
+    margin-bottom:150px;
+}
+
+
+.rezervisiForma{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.forma1 {
+    padding-top:20px;
+    margin-left: 130px;
+    float:left;
+    width: 40%;
+    height: 800px;
+    background-color: #e5e5e5;
+    border-top-left-radius: 8px;
+    box-shadow: 2px 0px 8px 0px rgba(50, 50, 50, 0.55);
+
+}
+
+
+.forma2 {
+    float:left;
+    padding-top:20px;
+    width: 40%;
+    height: 800px;
+    background-color: rgba(60, 60, 60, 0.46);
+    border-top-right-radius: 8px;
+    box-shadow:         2px 0px 8px 0px rgba(50, 50, 50, 0.55);
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.formaNaslov{
+    font-size: 16pt;
+    text-align: center;
+    color: #3d9ba3;
+    letter-spacing: 5px;
+}
+
+
+[class*="forma"] form{
+    /*position: absolute;*/
+}
+
+.kontaktForma{
+
+
+}
+
+[class*="forma"] label {
+    margin-top: 30px;
+    margin-left:50px;
+    float:left;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+[class*="forma"] input, .pozadinaDugmici .dugmici input {
+    border: none;
+    padding-top:20px;
+    border-bottom: 2px solid rgba(99, 168, 202, 0.75);
+    background-color: rgba(99, 168, 202, 0);
+    width: 85%;
+}
+
+
+[class*="forma"] form > div {
+    /*width: 250px;*/
+    margin-left: 0;
+}
+
+ .pozadinaDugmici.dugmici{
+    position: relative;
+    margin-top:20px;
+    margin-left: 40px;
+
+}
+[class*="forma"] .pozadinaDugmici.dugmici > input{
+    float:left;
+    /*padding-right: 100px;*/
+    font-size: 12pt;
+    text-align: center;
+    margin-top:20px;
+}
+
+[class*="forma"] input[type=text]:focus, [class*="forma"] input[type=email]:focus{
+    margin-top: 30px;
+    /*box-shadow: 0 3px 3px rgba(0,0,0,0.22), 0 1px 2px rgba(0,0,0,0.34);*/
+    border-bottom: 2px solid rgba(255,182,193, 0.7);
+
+}
+
+ .pozadinaDugmici.dugmici input[type=submit]:hover, .pozadinaDugmici.dugmici input[type=submit]:active{
+    /*background-color: rgba(255,182,193, 0.7);*/
+    box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 2px solid rgba(255,182,193, 0.7);
+    border-radius: 10px;
+    padding-bottom:10px;
+}
+
+
+.pozadinaDugmici{
+    background-color: rgba(55, 55, 55, 0.46);
+    height: 100px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom:150px;
+    width: 80%;
+    margin-left: 130px;
+    text-align: center;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.pozadinaDugmici .dugmici input{
+    padding-top:30px;
+    color:black;
+}
+
+[class*="forma"] select {
+    padding-top:8px;
+    border: 2px solid rgba(99, 168, 202, 0.15);
+    background-color: rgba(99, 168, 202, 0);
+    width: 85%;
+    text-align: center;
+}
+
+.redPutnici > input[type=checkbox] {
+    margin-left:-30px;
+    float:left;
+
+}
+
+
+
+
+
+

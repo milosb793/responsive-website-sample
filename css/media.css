@@ -3,9 +3,6 @@
 /* small screens */
 @media only screen and (max-width : 480px)
 {
-    .sadrzaj {
-        max-width: 480px;
-    }
 
     div.nav1 {
         visibility: hidden;
@@ -77,9 +74,9 @@
 
     #slajderDiv .natpis {
         top:60%;
-        left: 13% !important;
-        width: 350px;
-        height: 300px;
+        left: 15% !important;
+        width: 300px;
+        height: 100px;
     }
 
     #izdvajamoSadrzaj {
@@ -95,17 +92,150 @@
         padding-bottom: 15%;
     }
 
+    div.tekst{
+        left:0;
+        margin-left:40px;
+        font-size: 0.8em;
+    }
 
+    #slicica img.slicica{
+        width: 200px;
+        height: 100px;
+        left:30%;
+    }
+
+    #futer{
+        height: 500px;
+    }
+    #futer1 section{
+        margin-top: 40px;
+        padding-left: 35%;
+    }
+     #pratiteNas{
+        display:none;
+        visibility: hidden;
+    }
+    #social > div{
+        float:left;
+        margin-left:30px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #galerijaNaslov{
+        padding-top:30px;
+        padding-left:0 !important;
+        font-size: 2em;
+    }
+    #galerija span.inicijal{
+        font-size:3em;
+        font-style:italic;
+        padding: 0 0px 0 5px;
+        font-family: "NK174";
+    }
+
+    .kontaktNaslov{
+        font-size: 20pt !important;
+    }
+
+    .kontaktForma{
+        position: relative;
+    }
+    .kontaktForma label {
+        margin-left:20px;
+    }
+
+    .kontaktForma form > div {
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .kontaktForma form > div textarea{
+        width: 95% !important;
+    }
+
+    .kontaktForma .dugmici{
+        margin-left:22px;
+    }
+
+    .gdeSeNalazimoTekst{
+        background-size: cover;
+    }
+
+    span.inicijal{
+        font-size:1em;
+        font-style:italic;
+        padding: 0 0px 0 0px;
+        font-family: "NK174";
+    }
+
+    .formaNaslov{
+        letter-spacing: 0;
+
+    }
+    .forma1, .forma2, .pozadinaDugmici{
+        float:none;
+        display: block;
+        margin-left: 3px;
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 150px;
+        font-size: 1em;
+    }
+
+    .pozadinaDugmici{
+        width: 150px;
+        position: relative;
+        height: 150px;
+        padding-bottom: 100px;
+
+    }
+
+    [class*="forma"] label {
+        text-align: center;
+        margin-left:10px;
+
+    }
+
+    [class*="galerijaNaslov"] {
+        font-size: 1.5em;
+        letter-spacing: 1px;
+    }
+
+    .slikaGalerija img {
+        height:100%;
+        width: 100%;
+        /*background-size: 120px 100px;*/
+
+    }
+
+
+    [class*="galerijaSadrzaj"]{
+        position: relative;
+        margin-left: -20px;
+        margin-right: 35px;
+    }
+
+    .slika {
+        padding: 5px 5px 5px 5px;
+        min-width: 10rem;
+        max-width: 25rem;
+        /*background-color: white;*/
+        /*word-wrap: break-word;*/
+        box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.37);
+        z-index: -1;
+
+    }
 
 }
 
 /* mobile */
 @media screen and (min-width: 481px) and (max-width:680px) {
 
-
     div.nav1 {
         visibility: hidden;
-        display:none;
+        display: none;
     }
 
     .nav2 {
@@ -172,25 +302,115 @@
     }
 
     #slajderDiv .natpis {
-        left: 10% !important;
-        width: 500px;
+        left: 15% !important;
+        width: 400px;
         height: 100px;
     }
 
     #izdvajamoSadrzaj {
         height: auto;
-        padding-left: 25% !important;
+        padding-left: 18% !important;
     }
 
-    #galerijaSadrzaj{
+    #galerijaNaslov{
+        font-size: 2em;
+    }
+    #galerijaSadrzaj {
         height: auto;
         margin-bottom: 10%;
-        padding-left:25%;
-        padding-top:5%;
+        padding-left: 25%;
+        padding-top: 5%;
         padding-bottom: 15%;
     }
 
+    div.tekst {
+        left: 0 !important;
+        margin-left: 50px;
+        font-size: 0.857em;
+    }
 
+    #slicica img.slicica {
+        width: 200px;
+        height: 100px;
+        left: 35%;
+    }
+
+    .kontaktNaslov {
+        font-size: 30pt !important;
+    }
+
+    .kontaktForma {
+        position: relative;
+    }
+
+    .kontaktForma label {
+        margin-left: 20px;
+    }
+
+    .kontaktForma form > div {
+        width: 90%;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .kontaktForma form > div textarea {
+        width: 90% !important;
+    }
+
+    .kontaktForma .dugmici {
+        margin-left: 30px;
+    }
+
+    .gdeSeNalazimoTekst {
+        background-size: cover;
+    }
+
+    .forma1, .forma2, .pozadinaDugmici{
+        float:none;
+        display: block;
+        margin-left: 10px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .pozadinaDugmici{
+        width: 220px;
+        position: relative;
+        height: 100px;
+        padding-bottom: 100px;
+
+    }
+
+
+
+
+    [class*="galerijaNaslov"] {
+        font-size: 2em;
+    }
+
+    .slikaGalerija img {
+        height: auto;
+        width: 350px;
+        background-size: auto;
+
+    }
+
+
+    .slika {
+        padding: 10px 10px 10px 10px;
+        min-width: 10rem;
+        max-width: 25rem;
+        /*background-color: white;*/
+        /*word-wrap: break-word;*/
+        box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.37);
+        z-index: -1;
+
+    }
+
+    [class*="galerijaSadrzaj"]{
+        position: relative;
+        margin-left:80px;
+    }
 }
 
 /* medium devices */
@@ -221,23 +441,78 @@ and (max-device-width: 1280px)
     }
 
     #slajderDiv .natpis{
-        left:22%;
-        top:60%
+        left:30%;
+        top:55%
     }
 
     #izdvajamoSadrzaj {
         height: auto;
-        padding-left: 25% !important;
+        padding-left: 20% !important;
     }
 
     #galerijaSadrzaj{
         height: auto;
-        margin-bottom: 10%;
-        padding-left:25%;
+        /*margin-bottom: 10%;*/
+        padding-left:28%;
         /*padding-top:5%;*/
-        padding-bottom: 40%;
+        padding-bottom: 70%;
     }
 
+    div.tekst{
+        left:0 !important;
+        margin-left:80px;
+        font-size: 1em;
+        width: 80%;
+    }
+
+    #slicica img.slicica{
+        width: 300px;
+        height: 100px;
+        left:35%;
+    }
+    .kontaktNaslov{
+        font-size: 30pt !important;
+    }
+
+    .kontaktForma{
+        position: relative;
+    }
+    .kontaktForma label {
+        margin-left:40px;
+    }
+
+    .kontaktForma form > div {
+        width: 90%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .kontaktForma form > div textarea{
+        width: 90% !important;
+    }
+
+    .kontaktForma .dugmici{
+        margin-left:40px;
+    }
+
+    .gdeSeNalazimoTekst{
+        background-size: cover;
+    }
+
+    [class*="galerijaNaslov"] {
+        font-size: 2.9em;
+    }
+
+    .slikaGalerija img {
+        height: 300px;
+        width: 100%;
+        background-size: auto;
+
+    }
+    [class*="galerijaSadrzaj"]{
+        position: relative;
+        margin-left:150px;
+    }
 
 }
 
@@ -286,6 +561,52 @@ and (max-device-width: 1280px)
         padding-bottom: 60%;
     }
 
+    .kontaktNaslov{
+        font-size: 40pt !important;
+    }
+
+    .kontaktForma{
+        position: relative;
+    }
+    .kontaktForma label {
+        margin-left:45px;
+    }
+
+    .kontaktForma form > div {
+        width: 700px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .kontaktForma form > div textarea{
+        width: 700px !important;
+        /*margin-left:50px;*/
+        /*margin-right:50px;*/
+    }
+
+    .kontaktForma .dugmici{
+        margin-left:50px;
+    }
+
+    .gdeSeNalazimoTekst{
+        background-size: cover;
+    }
+
+    [class*="galerijaNaslov"] {
+        font-size: 4em;
+    }
+
+    .slikaGalerija img {
+        height: 350px;
+        /*width: 300px;*/
+        background-size: auto;
+
+    }
+
+    [class*="galerijaSadrzaj"]{
+        position: relative;
+        margin-left:20px;
+    }
 
 
 }

@@ -287,10 +287,10 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
 
 }
 
-#izdvajamo span.inicijal{
+span.inicijal{
     font-size:3em;
     font-style:italic;
-    padding: 0 15px 0 15px;
+    /*padding: 0 15px 0 15px;*/
     font-family: "NK174";
 
 }
@@ -597,8 +597,8 @@ ul.meni2 li a:hover, ul.meni2 li a:visited{
 }
 
 
-#futer1 section{
-    display:inline;
-    float:left;
+img:hover{
+    cursor: pointer;
 }
+
 
