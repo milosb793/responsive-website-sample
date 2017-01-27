@@ -523,7 +523,6 @@ and (max-device-width: 1280px)
     ul.meni1{
         display:block;
         position: absolute;
-
     }
     ul.meni1 li {
         float:left;
@@ -531,7 +530,6 @@ and (max-device-width: 1280px)
     }
     ul.meni1 li.desno.jezik{
         float:right;
-
     }
 
     ul.meni2 li a{
