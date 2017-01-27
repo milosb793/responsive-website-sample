@@ -1,0 +1,56 @@
+[
+  {
+    "id" : 1,
+    "naslov"  : "Фрушка гора",
+    "slika"  : "img/nacionalni_parkovi/tmb_artikli/4.jpg",
+    "vecaSlika"  : "img/nacionalni_parkovi/4.jpg",
+    "kratkiOpis": "Aliquam sodales facilisis ex, id scelerisque velit tempor vitae. Sed ac dui nec enim pulvinar vestibulum. Integer sollicitudin eros a orci egestas scelerisque eu sed metus. Nam eu consectetur nulla. Sed efficitur faucibus dolor, ac tristique purus venenatis eget. Nam eu dui felis. Duis ultrices lobortis hendrerit. ",
+    "dugiOpis": "Aliquam sodales facilisis ex, id scelerisque velit tempor vitae. Sed ac dui nec enim pulvinar vestibulum. Integer sollicitudin eros a orci egestas scelerisque eu sed metus. Nam eu consectetur nulla. Sed efficitur faucibus dolor, ac tristique purus venenatis eget. Nam eu dui felis. Duis ultrices lobortis hendrerit.Aliquam sodales facilisis ex, id scelerisque velit tempor vitae. Sed ac dui nec enim pulvinar vestibulum. Integer sollicitudin eros a orci egestas scelerisque eu sed metus. Nam eu consectetur nulla. Sed efficitur faucibus dolor, ac tristique purus venenatis eget. Nam eu dui felis. Duis ultrices lobortis hendrerit. ",
+    "video" : "pRAUP2Df9VM"
+  },
+  {
+    "id" : 2,
+    "naslov"  : "Тара",
+    "slika"  : "img/nacionalni_parkovi/tmb_artikli/1.jpg",
+    "vecaSlika"  : "img/nacionalni_parkovi/1.jpg",
+    "kratkiOpis" : "Nam quis scelerisque nulla, eu feugiat libero. Sed maximus nisi eget aliquet rhoncus. Nunc vulputate viverra tincidunt. Vivamus mattis massa arcu, vitae ullamcorper nisl feugiat sit amet. Nam nec pretium arcu. Curabitur vestibulum felis in eros dapibus, in lacinia tortor sodales. Fusce at erat et ligula vehicula vehicula sed non quam. Nulla malesuada vehicula vestibulum. ",
+    "dugiOpis": "Nam quis scelerisque nulla, eu feugiat libero. Sed maximus nisi eget aliquet rhoncus. Nunc vulputate viverra tincidunt. Vivamus mattis massa arcu, vitae ullamcorper nisl feugiat sit amet. Nam nec pretium arcu. Curabitur vestibulum felis in eros dapibus, in lacinia tortor sodales. Fusce at erat et ligula vehicula vehicula sed non quam. Nulla malesuada vehicula vestibulum. Nam quis scelerisque nulla, eu feugiat libero. Sed maximus nisi eget aliquet rhoncus. Nunc vulputate viverra tincidunt. Vivamus mattis massa arcu, vitae ullamcorper nisl feugiat sit amet. Nam nec pretium arcu. Curabitur vestibulum felis in eros dapibus, in lacinia tortor sodales. Fusce at erat et ligula vehicula vehicula sed non quam. Nulla malesuada vehicula vestibulum. ",
+    "video" : "CSklbG-X9SU"
+  },
+  {
+    "id" : 3,
+    "naslov"  : "Стара планина",
+    "slika"  : "img/planine/tmb_artikli/11.jpg",
+    "vecaSlika"  : "img/planine/11.jpg",
+    "kratkiOpis" : "Nam elementum viverra odio, eu consectetur nunc dictum vitae. Nulla est orci, porttitor ornare orci sit amet, iaculis efficitur quam. Nam at semper risus. Cras venenatis augue ultricies nulla finibus efficitur. Nunc augue ipsum, porttitor ut erat ac, tempor sollicitudin metus. Morbi a magna sit amet libero aliquam dictum. Phasellus in turpis dignissim, vehicula nulla id, consectetur libero.",
+    "dugiOpis":"Nam elementum viverra odio, eu consectetur nunc dictum vitae. Nulla est orci, porttitor ornare orci sit amet, iaculis efficitur quam. Nam at semper risus. Cras venenatis augue ultricies nulla finibus efficitur. Nunc augue ipsum, porttitor ut erat ac, tempor sollicitudin metus. Morbi a magna sit amet libero aliquam dictum. Phasellus in turpis dignissim, vehicula nulla id, consectetur libero. Nam elementum viverra odio, eu consectetur nunc dictum vitae. Nulla est orci, porttitor ornare orci sit amet, iaculis efficitur quam. Nam at semper risus. Cras venenatis augue ultricies nulla finibus efficitur. Nunc augue ipsum, porttitor ut erat ac, tempor sollicitudin metus. Morbi a magna sit amet libero aliquam dictum. Phasellus in turpis dignissim, vehicula nulla id, consectetur libero.",
+    "video" : "hJXEiLq2M1o"
+  },
+  {
+    "id" : 4,
+    "naslov"  : "Сува планина",
+    "slika"  : "img/planine/tmb_artikli/8.jpg",
+    "vecaSlika"  : "img/planine/4.jpg",
+    "kratkiOpis" : "Etiam ante sapien, sollicitudin nec pulvinar nec, eleifend eget odio. Sed quis laoreet sem. Ut accumsan quam sit amet vulputate euismod. Cras imperdiet, lorem a finibus sollicitudin, massa odio tincidunt lectus, sit amet varius justo arcu eget arcu. Suspendisse potenti. ",
+    "dugiOpis": "Etiam ante sapien, sollicitudin nec pulvinar nec, eleifend eget odio. Sed quis laoreet sem. Ut accumsan quam sit amet vulputate euismod. Cras imperdiet, lorem a finibus sollicitudin, massa odio tincidunt lectus, sit amet varius justo arcu eget arcu. Suspendisse potenti. Etiam ante sapien, sollicitudin nec pulvinar nec, eleifend eget odio. Sed quis laoreet sem. Ut accumsan quam sit amet vulputate euismod. Cras imperdiet, lorem a finibus sollicitudin, massa odio tincidunt lectus, sit amet varius justo arcu eget arcu. Suspendisse potenti. ",
+    "video" : ""
+  },
+  {
+    "id" : 5,
+    "naslov"  : "Златибор",
+    "slika"  : "img/selo/tmb_artikli/3.jpg",
+    "vecaSlika"  : "img/selo/3.jpg",
+    "kratkiOpis" : " Quisque efficitur mi non congue dignissim. Pellentesque sed risus egestas tellus sagittis ullamcorper. Morbi in venenatis augue. Proin iaculis est ac erat egestas tincidunt. Duis commodo iaculis dolor, a dignissim enim congue et. Cras vitae urna vestibulum, blandit nisl nec, tempor diam. Nulla facilisi. Mauris non ipsum mollis, pretium sem ut, laoreet ante. ",
+    "dugiOpis": " Quisque efficitur mi non congue dignissim. Pellentesque sed risus egestas tellus sagittis ullamcorper. Morbi in venenatis augue. Proin iaculis est ac erat egestas tincidunt. Duis commodo iaculis dolor, a dignissim enim congue et. Cras vitae urna vestibulum, blandit nisl nec, tempor diam. Nulla facilisi. Mauris non ipsum mollis, pretium sem ut, laoreet ante. Quisque efficitur mi non congue dignissim. Pellentesque sed risus egestas tellus sagittis ullamcorper. Morbi in venenatis augue. Proin iaculis est ac erat egestas tincidunt. Duis commodo iaculis dolor, a dignissim enim congue et. Cras vitae urna vestibulum, blandit nisl nec, tempor diam. Nulla facilisi. Mauris non ipsum mollis, pretium sem ut, laoreet ante. ",
+    "video" : "ii_ecYe_8PI"
+  },
+  {
+    "id" : 6,
+    "naslov"  : "Село",
+    "slika"  : "img/selo/tmb_artikli/10.jpg",
+    "vecaSlika"  : "img/selo/10.jpg",
+    "kratkiOpis" : "Etiam venenatis odio et est mollis, ut posuere turpis condimentum. In interdum, velit eu tincidunt viverra, mauris erat dignissim magna, vel finibus leo ligula vitae nisi. Duis mollis lacus id leo consequat, vel sagittis magna vulputate.",
+    "dugiOpis" : "Etiam venenatis odio et est mollis, ut posuere turpis condimentum. In interdum, velit eu tincidunt viverra, mauris erat dignissim magna, vel finibus leo ligula vitae nisi. Duis mollis lacus id leo consequat, vel sagittis magna vulputate. Etiam venenatis odio et est mollis, ut posuere turpis condimentum. In interdum, velit eu tincidunt viverra, mauris erat dignissim magna, vel finibus leo ligula vitae nisi. Duis mollis lacus id leo consequat, vel sagittis magna vulputate.",
+    "video" : "9ArNLVTn9x0"
+  }
+]
